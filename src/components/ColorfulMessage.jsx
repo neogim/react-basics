@@ -1,6 +1,6 @@
 const ColorfulMessage = (props) => {
   const { color, children } = props;
-  console.log(props);
+  // console.log(props);
   const contentStyle = {
     color,
     fontSize: "18px" //font-sizeではなく、キャメルケースで書く
